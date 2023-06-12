@@ -14,6 +14,7 @@ def get_requirements(file_path:str)->List[str]:
 
         if hyphen_e_dot in requirements:
             requirements.remove(hyphen_e_dot)
+    return requirements
         
 
 
